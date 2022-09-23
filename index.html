@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Red Hat Display', sans-serif;
+        }
+
+        body {
+            background-color: #e0e8ff;
+        }
+
+        .screen {
+            position: relative;
+
+        }
+
+        #screen-1 {
+            width: 100vw;
+        }
+
+        .screen-3 {
+            margin-top: -400px;
+            margin-left: 35%;
+            position: relative;
+        }
+
+        .screen-4 {
+            background-color: white;
+            border-radius: 10px 10px 10px 10px;
+
+        }
+        
+        #img-2 {
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .screen-4,
+        #img-2 {
+            width: 400px;
+            height: auto;
+           
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-top: 20px;
+            margin-left: 100px;
+            color: #1f2f56;
+        }
+
+        p {
+            font-size: 14px;
+            width: 300px;
+            color: #7280a7;
+            margin-left: 50px;
+            text-align: center;
+            margin-top: 20px;
+            inline-size: 1.5;
+        }
+
+        .shadow {
+            background-color: #f5f7ff;
+            padding: 10px;
+            width: 300px;
+            margin-left: 40px;
+            margin-top: 20px;
+            border-radius: 10px;
+            display: flex;
+        }
+
+        .img-3,
+        .link,
+        .text-price {
+            display: inline-block;
+        }
+
+        .link {
+            
+            margin-left: 60px;
+            margin-top: 30px;
+            align-items: flex-end;
+           
+        
+        }
+        .plan {
+            padding-bottom: 10px;
+        }
+
+        .plan,
+        .price {
+            display: block;
+
+
+
+        }
+
+
+        .img-3 {
+            margin-left: 20px;
+        }
+
+        .text-price {
+            margin-left: 20px;
+
+        }
+
+        a {
+            font-style: unset;
+            font-size: 12px;
+            color: blue;
+            padding-bottom: -80px;
+           
+        }
+
+        h6 {
+            font-size: 12px;
+            color: #7280a7;
+        }
+
+        button {
+            background-color: 	#3829e0;
+            border: none;
+            width: 300px;
+            height: 50px;
+            color: white;
+            margin-left: 50px;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+
+        h3 {
+            margin-top: 20px;
+            margin-left: 170px;
+            padding-bottom: 20px;
+            font-size: 12px;
+            color: #7280a7;
+        }
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <div class="screen">
+        <img id="screen-1" src="./images/pattern-background-desktop.svg">
+        <div class="screen-3">
+            <div class="screen-4">
+                <img id="img-2" src="./images/illustration-hero.svg">
+                <h1><b>Order Summary</b></h1>
+                <p> You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                </p>
+                <div class="shadow">
+                    <div class="img-3"><img src="./images/icon-music.svg"></div>
+                    <div class="text-price">
+                        <div class="plan">
+                            <h5> Annual Plan</h5>
+                        </div>
+                        <div class="price">
+                            <h6> $59.99/year</h6>
+                        </div>
+                    </div>
+                    <div class="link"><a>Change</a> </div>
+                </div>
+                <button>Proceed to Payment</button>
+                <h3>Cancel Order</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
